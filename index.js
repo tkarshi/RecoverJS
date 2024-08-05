@@ -1,3 +1,7 @@
-function buttonClick() {
-  alert("Clicked Me");
+// function buttonClick() {
+//   alert("Clicked Me");
+// }
+
+function btnClick() {
+  document.getElementById("myButton").innerHTML = "Clicked";
 }
